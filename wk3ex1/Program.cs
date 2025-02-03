@@ -9,8 +9,8 @@ namespace wk3ex1
     internal class Program
     {
         // exchange rate simulation
-        static double USDToEUR = 0.93;
-        static double USDToJPY = 110.50;
+        static double USDToEUR = 0.98;
+        static double USDToJPY = 155.62;
         static double EURToUSD = 1 / USDToEUR; static double EURToJPY = USDToJPY * USDToEUR;
         static double JPYToUSD = 1 / USDToJPY; static double JPYToEUR = 1 / EURToJPY;
 
